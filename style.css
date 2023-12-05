@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+}
+
+.btn{
+    width: 150px;
+    height: 150px;
+    border: 8px solid black;
+    border-radius: 20%;
+    margin: 20px;
+}
+
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    
+}
+
+.red{
+    background-color: #d95980;
+}
+
+.yellow{
+    background-color: #f99b45;
+}
+
+.green{
+    background-color: #63aac0;
+}
+
+.purple{
+    background-color: #819ff9;
+}
+
+.gameflash{
+    background-color: white;
+}
+
+.userflash{
+    background-color: green;
+}
+
+.high{
+    color: white;
+    background-color: rgb(214, 56, 82);
+    /* width:400px ;
+    height: 50px;
+    margin: auto; */
+}
+
+.spacer{
+    height: 100vh;
+}
+
+/* .score-container{
+    margin:20px 0px;
+} */
+
+.score-container h1{
+    color: #63aac0;
+}
+
+#highest-score{
+    font-size: 24px;
+    font-weight: bold;
+    color: #d95980;
+}
+
+
